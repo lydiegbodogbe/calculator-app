@@ -1,0 +1,100 @@
+/***
+    Description des variables pour les couleurs , les typographies , ...
+ */
+
+ :root {
+
+    /* colors */
+
+    --bg-main: hsl(222, 26%, 31%);
+    --bg-keypad: hsl(223, 31%, 20%);
+    --bg-screen: hsl(224, 36%, 15%);
+
+    --key-color: hsl(30, 25%, 89%) ;
+    --key-shadow: hsl(28, 16%, 65%);
+    --del-color: hsl(225, 21%, 49%);
+    --del-shadow: hsl(224, 28%, 35%);
+
+    --result-color: hsl(6, 63%, 50%);
+    --result-shadow: hsl(6, 70%, 34%);
+
+    --dark-grey: hsl(221, 14%, 31%);
+    --text-color: hsl(0, 0%, 100%);
+
+
+
+
+    /* fonts family */
+
+    --ff-bold : "poppins-bold", sans-serif;
+    --ff-semiBold : "poppins-SemiBold", sans-serif;
+    --ff-medium : "poppins-Medium", sans-serif;
+    --ff-regular : "poppins-Regular", sans-serif;
+    --ff-light : "poppins-Light", sans-serif;
+    --ff-montSemi : "montSemi", sans-serif;
+
+    /*Typescales*/
+    --fs-10: .625rem; /* 10 */
+    --fs-11: .688rem; /* 11px */
+    --fs-xxs: .75rem; /* 12px */
+    --fs-xs: .875rem; /* 14px */
+    --fs-sm: 1rem; /* 16px */
+    --fs-18: 1.125rem; /* 18px */
+    --fs-md: 1.25rem; /* 20px */
+    --fs-lg: 1.5rem; /* 24px */
+    --fs-xl: 2rem; /* 32px */
+    --fs-xxl: 2.25rem; /* 36px */
+    --fs-xxxl: 2.5rem; /* 40px */
+    --fs-hero: 3rem; /* 48px */
+}
+
+.theme-light{
+    --bg-main: hsl(0, 0%, 90%);
+    --bg-keypad: hsl(0, 5%, 81%);
+    --bg-screen: hsl(0, 0%, 93%); 
+
+    --key-color: hsl(45, 7%, 89%);
+    --key-shadow: hsl(35, 11%, 61%);
+    --del-color: hsl(185, 42%, 37%);
+    --del-shadow: hsl(185, 58%, 25%);
+
+    --result-color: hsl(25, 98%, 40%);
+    --result-shadow: hsl(25, 99%, 27%);
+
+    --dark-grey : hsl(60, 10%, 19%);
+    --text-color : hsl(0, 0%, 100%);
+}
+
+.theme-dark {
+    --bg-main: hsl(222, 26%, 31%);
+    --bg-keypad: hsl(223, 31%, 20%);
+    --bg-screen: hsl(224, 36%, 15%);
+
+    --key-color: hsl(30, 25%, 89%);
+    --key-shadow: hsl(28, 16%, 65%);
+    --del-color: hsl(225, 21%, 49%);
+    --del-shadow: hsl(224, 28%, 35%);
+
+    --result-color: hsl(6, 63%, 50%);
+    --result-shadow: hsl(6, 70%, 34%);
+
+    --dark-grey: hsl(221, 14%, 31%);
+    --text-color: hsl(0, 0%, 100%);
+}
+
+.theme-colorful { 
+    --bg-main: hsl(268, 75%, 9%);
+    --bg-keypad: hsl(268, 71%, 12%);
+    --bg-screen: hsl(268, 71%, 12%); 
+
+    --key-color:hsl(268, 47%, 21%);
+    --key-shadow: hsl(290, 70%, 36%);
+    --del-color: hsl(281, 89%, 26%);
+    --del-shadow: hsl(285, 91%, 52%);
+
+    --result-color: hsl(176, 100%, 44%);
+    --result-shadow: hsl(177, 92%, 70%);
+
+    --dark-grey: hsl(198, 20%, 13%);
+    --text-color: hsl(52, 100%, 62%);
+}
