@@ -1,5 +1,5 @@
-
-
+const touches = [...document.querySelectorAll('.touche')];
+console.log(touches);
   
   const toggle = document.getElementById("toggleCircle");
   const circle = toggle.querySelector(".circle");

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
@@ -29,7 +30,7 @@
       </div>
 
     </div>
-    <script src="script.js"></script>
+  
 
   </header>
 
@@ -54,7 +55,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6 p-4 my-3 rounded align-items-end ecran ">
+      <div class="col-12 col-md-6 p-4 my-3 rounded ecran ">
         <span class="h4 text-white">2004</span>
       </div>
 
@@ -64,33 +65,33 @@
       <div class="col-12 col-md-6 p-5 calc rounded">
         <div class="row">
          
-          <button type="button" class="chiffre col">7</button>
-          <button type="button" class="chiffre col">8</button>
-          <button type="button" class="chiffre col">9</button>
-          <button type="button" class="chiffre col">DEL</button>
+          <button data-key="55"  class="touche chiffre  col">7</button>
+          <button data-key="56"  class="chiffre touche col">8</button>
+          <button data-key="57"  class="chiffre touche col">9</button>
+          <button data-key="7"  class="resetBut touche col">DEL</button>
           
         </div>
         <div class="row">
-          <button type="button" class="chiffre col">4</button>
-          <button type="button" class="chiffre col">5</button>
-          <button type="button" class="chiffre col">6</button>
-          <button type="button" class="chiffre col">+</button>
+          <button data-key="52"  class="chiffre touche col">4</button>
+          <button data-key="53"  class="chiffre touche col">5</button>
+          <button data-key="54"  class="chiffre touche col">6</button>
+          <button data-key="1"  class="chiffre touche col">+</button>
         </div>
         <div class="row">
-          <button type="button" class="chiffre col">1</button>
-          <button type="button" class="chiffre col">2</button>
-          <button type="button" class="chiffre col">3</button>
-          <button type="button" class="chiffre col">-</button>
+          <button data-key="49" class="chiffre touche col" >1</button>
+          <button data-key="50" class="chiffre touche col">2</button>
+          <button data-key="51" class="chiffre touche col">3</button>
+          <button data-key="2" class="chiffre touche col">-</button>
         </div>
         <div class="row">
-          <button type="button" class="chiffre col">.</button>
-          <button type="button" class="chiffre col">0</button>
-          <button type="button" class="chiffre col">/</button>
-          <button type="button" class="chiffre col">x</button>
+          <button data-key="6" class="chiffre touche col">.</button>
+          <button data-key="48" class="chiffre touche col">0</button>
+          <button data-key="4" class="chiffre touche col">/</button>
+          <button data-key="3" class="chiffre touche col">x</button>
         </div>
         <div class="row">
-          <button type="button" class="chiffre col">RESET</button>
-          <button type="button" class="chiffre col">=</button>
+          <button data-key="8" class="resetBut touche col">RESET</button>
+          <button data-key="5" class="resultBut touche col">=</button>
         </div>
 
       </div>
@@ -105,7 +106,7 @@
 
   </footer>
 
-
+ <button class="touche">4</button>
 
 
   

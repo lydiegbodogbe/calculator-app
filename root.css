@@ -12,6 +12,7 @@
 
     --key-color: hsl(30, 25%, 89%) ;
     --key-shadow: hsl(28, 16%, 65%);
+    --key-text: ;
     --del-color: hsl(225, 21%, 49%);
     --del-shadow: hsl(224, 28%, 35%);
 
@@ -72,6 +73,7 @@
 
     --key-color: hsl(30, 25%, 89%);
     --key-shadow: hsl(28, 16%, 65%);
+    --key-text: hsl(221, 14%, 31%);
     --del-color: hsl(225, 21%, 49%);
     --del-shadow: hsl(224, 28%, 35%);
 
@@ -89,6 +91,7 @@
 
     --key-color:hsl(268, 47%, 21%);
     --key-shadow: hsl(290, 70%, 36%);
+    --key-text: hsl(52, 100%, 62%);
     --del-color: hsl(281, 89%, 26%);
     --del-shadow: hsl(285, 91%, 52%);
 
