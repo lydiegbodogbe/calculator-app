@@ -56,14 +56,18 @@
 
     --key-color: hsl(45, 7%, 89%);
     --key-shadow: hsl(35, 11%, 61%);
+    --key-hover: hsl(0, 0%, 93%);
     --del-color: hsl(185, 42%, 37%);
     --del-shadow: hsl(185, 58%, 25%);
+    --del-hover: hsl(185, 42%, 47%);
 
     --result-color: hsl(25, 98%, 40%);
     --result-shadow: hsl(25, 99%, 27%);
+    --result-hover: hsl(25, 98%, 50%);
 
     --dark-grey : hsl(60, 10%, 19%);
-    --text-color : hsl(0, 0%, 100%);
+    --text-color : hsl(60, 10%, 19%);
+    --text-result: white;
 }
 
 .theme-dark {
@@ -73,15 +77,19 @@
 
     --key-color: hsl(30, 25%, 89%);
     --key-shadow: hsl(28, 16%, 65%);
+    --key-hover: hsl(0, 0%, 93%);
     --key-text: hsl(221, 14%, 31%);
     --del-color: hsl(225, 21%, 49%);
     --del-shadow: hsl(224, 28%, 35%);
+    --del-hover: hsl(225, 21%, 59%);
 
     --result-color: hsl(6, 63%, 50%);
     --result-shadow: hsl(6, 70%, 34%);
+    --result-hover: hsl(6, 63%, 60%);
 
     --dark-grey: hsl(221, 14%, 31%);
     --text-color: hsl(0, 0%, 100%);
+    --text-result: white;
 }
 
 .theme-colorful { 
@@ -91,13 +99,17 @@
 
     --key-color:hsl(268, 47%, 21%);
     --key-shadow: hsl(290, 70%, 36%);
+    --key-hover: hsl(268, 47%, 31%);
     --key-text: hsl(52, 100%, 62%);
     --del-color: hsl(281, 89%, 26%);
     --del-shadow: hsl(285, 91%, 52%);
+    --del-hover: hsl(281, 89%, 36%);
 
     --result-color: hsl(176, 100%, 44%);
     --result-shadow: hsl(177, 92%, 70%);
+    --result-hover: hsl(176, 100%, 54%);
 
     --dark-grey: hsl(198, 20%, 13%);
     --text-color: hsl(52, 100%, 62%);
+    --text-result: hsl(198, 20%, 13%);
 }

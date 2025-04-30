@@ -5,93 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   
   <title>Frontend Mentor | Calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
   
 
 </head>
 <body class="m-5">
-
-  <header class="theme-light">
-    <div class="container">
-      <h1 id="themeName">Thème : Clair</h1>
-      <div class="toggle-circle" id="toggleCircle">
-        <div class="circle"></div>
-      </div>
-
-    </div>
-  
-
+  <header>
+    
   </header>
 
   <main>
-   <div class="container p-5 plan">
+   <div class="container p-5 my-5 plan">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6">
-          <div class="row d-flex ">
-            <div class="col-2 "> <p class="h2 text-white">calc</p> </div>
-            <div class="col-3 d-flex ">
-              
-                <div class="col"><p class="h4 text-white">THEME</p></div>
-                <div class="d-block">
-                  <div class="col"><p class="h4 text-white">1 2 3</p></div>
-                  
+      <div class="col-12 col-md-6 d-flex">
+            <div class="textCalc align-items-end">calc</div> 
+            <div class="ms-auto d-flex " style="height: 40px;">
+              <div class="textToggle d-flex align-items-end me-2 mb-1">THEME</div>
+              <div>
+                <div class="textToggle d-flex px-1 justify-content-between ">
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
                 </div>
+                <div class="theme-light"><div data-key="600" class="toggle-circle touche" id="toggleCircle">
+                  <div class="circle"></div>
+                </div></div> 
+              </div> 
+            </div>         
         
-            </div>
-          </div>
-        
-
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-12 col-md-6 p-4 my-3 rounded ecran ">
-        <span class="h4 text-white">2004</span>
-      </div>
-
+      <div class="col-12 col-md-6 p-4 my-3 rounded ecran "></div>
     </div>
 
     <div class="row justify-content-center ">
       <div class="col-12 col-md-6 p-5 calc rounded">
         <div class="row">
          
-          <button data-key="55"  class="touche chiffre  col">7</button>
-          <button data-key="56"  class="chiffre touche col">8</button>
-          <button data-key="57"  class="chiffre touche col">9</button>
-          <button data-key="7"  class="resetBut touche col">DEL</button>
+          <button data-key="103"  class="touche chiffre  col">7</button>
+          <button data-key="104"  class="chiffre touche col">8</button>
+          <button data-key="105"  class="chiffre touche col">9</button>
+          <button data-key="80"  class="resetBut touche col">DEL</button>
           
         </div>
         <div class="row">
-          <button data-key="52"  class="chiffre touche col">4</button>
-          <button data-key="53"  class="chiffre touche col">5</button>
-          <button data-key="54"  class="chiffre touche col">6</button>
-          <button data-key="1"  class="chiffre touche col">+</button>
+          <button data-key="100"  class="chiffre touche col">4</button>
+          <button data-key="101"  class="chiffre touche col">5</button>
+          <button data-key="102"  class="chiffre touche col">6</button>
+          <button data-key="107"  class="chiffre touche col">+</button>
         </div>
         <div class="row">
-          <button data-key="49" class="chiffre touche col" >1</button>
-          <button data-key="50" class="chiffre touche col">2</button>
-          <button data-key="51" class="chiffre touche col">3</button>
-          <button data-key="2" class="chiffre touche col">-</button>
+          <button data-key="97" class="chiffre touche col" >1</button>
+          <button data-key="98" class="chiffre touche col">2</button>
+          <button data-key="99" class="chiffre touche col">3</button>
+          <button data-key="109" class="chiffre touche col">-</button>
         </div>
         <div class="row">
-          <button data-key="6" class="chiffre touche col">.</button>
-          <button data-key="48" class="chiffre touche col">0</button>
-          <button data-key="4" class="chiffre touche col">/</button>
-          <button data-key="3" class="chiffre touche col">x</button>
+          <button data-key="110" class="chiffre touche col">.</button>
+          <button data-key="96" class="chiffre touche col">0</button>
+          <button data-key="111" class="chiffre touche col">/</button>
+          <button data-key="106" class="chiffre touche col">*</button>
         </div>
         <div class="row">
           <button data-key="8" class="resetBut touche col">RESET</button>
-          <button data-key="5" class="resultBut touche col">=</button>
+          <button data-key="187" class="resultBut touche col">=</button>
         </div>
 
       </div>
@@ -99,20 +82,16 @@
     </div>
 
    </div>
+  
 
   </main>
 
   <footer>
-
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">barbie_noire</a>.
+    </div>
   </footer>
-
- <button class="touche">4</button>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">barbie_noire</a>.
-  </div>
+  <script src="script.js"></script>
 </body>
 </html>
